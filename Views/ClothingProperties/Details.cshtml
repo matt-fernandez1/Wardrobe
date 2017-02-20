@@ -1,0 +1,90 @@
+﻿@model Wardrobe2.Models.ClothingProperty
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ClothingProperty</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Photo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Photo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Color)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Color)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Season)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Season)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Occasion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Occasion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Accessory.Accessories)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Accessory.Accessories)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bottom.Bottoms)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bottom.Bottoms)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sho.Shoes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sho.Shoes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Top.Tops)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Top.Tops)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ClothingID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AWardrobeModelStoreContainer" CdmEntityContainer="AWardrobeEntities">
+    <EntitySetMapping Name="Accessories">
+      <EntityTypeMapping TypeName="AWardrobeModel.Accessory">
+        <MappingFragment StoreEntitySet="Accessories">
+          <ScalarProperty Name="AccessoriesID" ColumnName="AccessoriesID" />
+          <ScalarProperty Name="Accessories" ColumnName="Accessories" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bottoms">
+      <EntityTypeMapping TypeName="AWardrobeModel.Bottom">
+        <MappingFragment StoreEntitySet="Bottoms">
+          <ScalarProperty Name="BottomsID" ColumnName="BottomsID" />
+          <ScalarProperty Name="Bottoms" ColumnName="Bottoms" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClothingProperties">
+      <EntityTypeMapping TypeName="AWardrobeModel.ClothingProperty">
+        <MappingFragment StoreEntitySet="ClothingProperties">
+          <ScalarProperty Name="ClothingID" ColumnName="ClothingID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Season" ColumnName="Season" />
+          <ScalarProperty Name="Occasion" ColumnName="Occasion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Shoes">
+      <EntityTypeMapping TypeName="AWardrobeModel.Sho">
+        <MappingFragment StoreEntitySet="Shoes">
+          <ScalarProperty Name="ShoesID" ColumnName="ShoesID" />
+          <ScalarProperty Name="Shoes" ColumnName="Shoes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tops">
+      <EntityTypeMapping TypeName="AWardrobeModel.Top">
+        <MappingFragment StoreEntitySet="Tops">
+          <ScalarProperty Name="TopsID" ColumnName="TopsID" />
+          <ScalarProperty Name="Tops" ColumnName="Tops" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

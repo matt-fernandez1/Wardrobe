@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7775b404d87e4ea0a97100f9de0d6e55" Name="Diagram1">
+        <EntityTypeShape EntityType="AWardrobeModel.Accessory" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AWardrobeModel.Bottom" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AWardrobeModel.ClothingProperty" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AWardrobeModel.Sho" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="AWardrobeModel.Top" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <AssociationConnector Association="AWardrobeModel.FK_Accessories_ClothingProperties" ManuallyRouted="false" />
+        <AssociationConnector Association="AWardrobeModel.FK_Bottoms_ClothingProperties" ManuallyRouted="false" />
+        <AssociationConnector Association="AWardrobeModel.FK_Shoes_ClothingProperties" ManuallyRouted="false" />
+        <AssociationConnector Association="AWardrobeModel.FK_Tops_ClothingProperties" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
