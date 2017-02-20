@@ -3,9 +3,70 @@
 @{
     ViewBag.Title = "Index";
 }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Case</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
 
-<h2>Index</h2>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Welcome To Your Wardrobe</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <p>Always Go Green: <span class="glyphicon glyphicon-leaf"></span></p>
+            </p>
+        </div>
+    </body>
+</html>
 
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+
+        <div class="container">
+            <img src="cinqueterre.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+        </div>
+        <p>The .img-thumbnail class creates a thumbnail of the image:</p>
+        <img src="cinqueterre.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+        </div>
+        <p>The .img-thumbnail class creates a thumbnail of the image:</p>
+        <img src="cinqueterre.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+        </div>
+    </body>
+</html>
+</body>
+</html>
+
+</body>
+</html>
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
@@ -71,11 +132,10 @@
             @Html.DisplayFor(modelItem => item.Top.Tops)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ClothingID }) |
             @Html.ActionLink("Details", "Details", new { id=item.ClothingID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ClothingID })
         </td>
     </tr>
+
 }
 
 </table>
